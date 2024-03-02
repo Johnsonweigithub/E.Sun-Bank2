@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" type="text/css" rel="stylesheet"/>
+    <title>login</title>
+</head>
+<body>
+    <div id="login_box" > 
+        <p>Login</p>
+        <p>帳號 :</p>
+        <input type="text" id="account" v-mode="account" size="10" />
+        <p>密碼 :</p>
+        <input type="text" id="password" v-mode="password" size="10" /><br>
+        <button @click="login" type="submit">登入</button>
+        <a href="createaccount.html"><button>註冊</button></a>
+    </div>
+    
+
+</body>
+</html>

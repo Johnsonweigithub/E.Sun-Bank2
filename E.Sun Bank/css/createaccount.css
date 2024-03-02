@@ -1,0 +1,14 @@
+#login_box{
+    width:400px;
+    height:550px;
+    background-color:red;
+    opacity:0.8;
+    position: absolute;
+    border-radius: 10%;
+    left:35%;
+    top:5%;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}
